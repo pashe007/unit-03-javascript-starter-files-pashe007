@@ -2,7 +2,12 @@
 const randomNumber = Math.round(Math.random() * 10);
 
 // ****************************************************TASK 1****************************************************
+let counter = 10;
 
+while (counter <= 15){
+ console.log(randomNumber);
+ counter = counter + 1;
+}
 
 
 
