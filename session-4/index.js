@@ -106,11 +106,28 @@ const areYouOldEnoughToDrive = presentage > driveage;
 console.log(' Are you Old enough to drive?' + ' '+ areYouOldEnoughToDrive)
 
   
+console.log(personC.name === 'florence' && personC.age === 29);
+console.log(personC.name === 'florence' || personC.age === 29);
 
- 
+if (personC.age > 18) {
+    console.log('This person is older than 18years of age');
+}else {
+    (console.log('This person younger than 18years of age' ))
+}
 
+if (personC.age <= 30) {
+    console.log('This person is younger than 30years of age');
+}else {
+    (console.log('This person older than 30years of age' ))
+}
 
-
+if (personD.age >= 30){
+    console.log(personD.name +' '+' is a eligible for management position')
+} else if (personD.age >= 20 && personD.age <= 29 ) {
+console.log(personD.name +' '+' is eligible for operational role')
+} else if (personD.age >= 13 && personD.age <= 19){
+    console.log( personD.name +' '+'can apply for part time jobs')
+} else { (console.log( personD.name +' '+ 'is a child'))}
 
 
 
