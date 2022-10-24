@@ -1,10 +1,17 @@
 // ****************************************************TASK 1****************************************************
 
+const person = ['simi', 'bola', 'alice', 'zoya', 'david', 'ellie', 'felix', 'gigi', 'leila', 'heidi' ]
+
+
+person.sort()
+person.reverse()
+console.log(person);
 
 
 
 
 
+const numbers = [5, 325, 67, 100000, 150]
 
 
 
